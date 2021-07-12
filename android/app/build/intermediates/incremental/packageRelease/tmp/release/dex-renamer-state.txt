@@ -1,0 +1,4 @@
+#Fri Jun 25 12:17:08 IST 2021
+base.0=/Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

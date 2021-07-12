@@ -1,0 +1,1161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+MERGED from [:react-native-vector-icons] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-restart] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-restart/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-sweet-alert] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-sweet-alert/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:expo-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-updates] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [:@react-native-firebase_app] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_datetimepicker] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_masked-view] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-reanimated] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-svg] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-view-shot] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-view-shot/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/508f8e510cda9bf15b164f5d2607ae08/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/160ae897584d7bc35c2dddb0043731a5/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:expo-application] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-application/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-barcode-scanner] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-barcode-scanner/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-constants] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-constants/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-contacts] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-contacts/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-29:12
+MERGED from [:expo-font] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-font/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-image-loader] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-31:12
+MERGED from [:expo-keep-awake] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:expo-permissions] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-print] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-print/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-secure-store] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-secure-store/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:expo-sms] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sms/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-sqlite] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sqlite/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-web-browser/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e3afc19ebd2e536b8aa98f87d552465c/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:17:1-45:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:15:1-41:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/7446a3a9955bb781d0cdb3e89cb344f0/jetified-android-image-cropper-2.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/62ab1ec326cda1f7424fcb1852914795/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b650aa5be9e1c30bef93c4c06c2a0857/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/fb3ec97d70b390d273321c67a9293389/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/71a85c6b3fad3331509e211bd963e256/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/8fdb51f2df27428be7b2ccf3875c7387/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3ba9773346e0f4bbbf35b68de7276bac/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0a4debcf16d91c6c9cd5f476bc830405/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0dacbb372b2e826eb5b9e789426abafe/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/14b0cf612cd50b79c90137f3f212e9d6/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ae772f9eba7abcb8a7c832faa165360e/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c848714ed90d0f9f581916ebe83dfd20/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/150df65fda127761f8808f99afdad62a/play-services-vision-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b769ff51b79fae1a4da0b77568dc3607/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc1769c235a9b77b27705026b0a82f/exifinterface-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b36abc7dfecd111d3dd022886601f3b4/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2d4fa56eb6cff74bed90c752b06e2546/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dcb83e0f190de87b784355c627b3e562/play-services-vision-common-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ec0728fa4206cb1af1c82e27e484cb9d/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/820316acb0e7f10246d330d791f36a32/play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4a8e86292b3a9a73fe84306ef2c2f2c8/play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/52864472e16852009105510fb159f2c2/play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/614a69d51ed39d51538884eebd02d1c2/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/88dcccca758cbedb1c6555d402cd6166/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/15370436b1c210ec73080913e33579d4/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cb3e157293161e906bffec86c96ba819/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e20a6ab22c22d9a9cd447df55bd44a00/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e8c38dd34d570febcf900ca2a9b56db8/firebase-installations-interop-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/50f4df11d396365161c6c457888f10ea/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6906ffed2aea90544a1253c2c642f49b/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b23483a9f0925625be2bceb9283c5376/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65d59802e0b20361306704ee348ccb03/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/786cb095adbb54689a19b0090ceb604e/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/59b8a590630168cdbfa917baf6123af1/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d62959529098fc803c61851ca86c120f/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/09275001d93924bd491ec83c8a9b0e3f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2c89af87692415af9ba41caa7244aab2/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/182dfd78bd4a6da65fced32119ce4d7d/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e5ba6754ec856f8309ad72ee41becf2b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3f9bc54ca0cd0bb164907efbd7bac3bc/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e3291b37d0a7ca893d7dc885cbc318e5/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/29c2d4dc3d8a3577a2a319d737863596/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4d23a82e1eb9f81212f9df8a3ec38492/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ae0831c0faf930df4c7e63b17ebebc17/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2c17312110008426e49d7f87e758c4e7/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/95b65439f7cabf7bcd1e9ce8af2ec947/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65f1fbdf10e114a0492f4920d10aad47/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/42f9361db9fc93aa75667e3be7fa5cf7/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c5d7caa9a16de2f31ef914b76d4def52/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cc8c2b6b2b04c5ceec9bb5525947f2b4/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/45898d21a7508b711b197350fbe2420f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/57da5e4068af0684766cdbe838a307c0/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd66af47375763ee702891503b050951/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d551f2b11cf359bc8106897b54aef8d7/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e38b5434e330ced18c78c386f9034244/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b3a9e60f5620e16525e9048c34e094d2/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6b3fc279a34276dd7709b2012ed889b0/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/70e1adc87d1f8737a4acc3df13597c93/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5e2db73c2f1d79172d66d8ecea21ff48/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/353c4b4d778183a5a3ba5c445d9da73f/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/81672422c6dcb65ecbc9e1d55f660345/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0b09324b7a699fde73a4caaa3717260b/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4bed7fd2f288998747769a96750bc8c6/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2039232070df0d70a9395943a005fb7e/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6cd9604dc5adcd44d2a2ad4e2f18a0f0/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ca77de279918319a6eefab0842301687/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/239a326bbc8b7b60cd66f3fefa0de9e0/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/83fbe8265c890ca2bbf58ff144055da4/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0e48a6cb0670650bc85a563c8aa7694c/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bdbfddfa92f1f5ba022bc2a4c83c25d8/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+	package
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:117-149
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:70-116
+	android:versionCode
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:1-66:12
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:4:3-64
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:4:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:5:3-75
+MERGED from [:react-native-sweet-alert] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-sweet-alert/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-78
+MERGED from [:react-native-sweet-alert] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-sweet-alert/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:5:20-73
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:6:3-72
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:6:20-70
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:7:3-77
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:7:20-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:8:3-72
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:8:20-70
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:9:3-63
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:9:20-61
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:10:3-77
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:10:20-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:11:3-78
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:11:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:12:3-76
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:12:20-74
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:13:3-69
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:13:20-67
+uses-permission#android.permission.CAMERA
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:14:3-62
+MERGED from [:expo-barcode-scanner] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-barcode-scanner/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-65
+MERGED from [:expo-barcode-scanner] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-barcode-scanner/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-65
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-65
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:14:20-60
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:15:3-70
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:15:20-68
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:16:3-69
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:16:20-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:17:3-77
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-80
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-80
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-80
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-80
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:17:20-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:18:3-68
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:18:20-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:19:3-78
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-81
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-81
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-81
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-81
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:19:20-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:20:3-70
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:20:20-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:21:3-76
+MERGED from [:expo-updates] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:expo-updates] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:21:20-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:22:3-65
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:22:20-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:23:3-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:23:20-77
+application
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:25:3-65:17
+MERGED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-43:19
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-community_datetimepicker] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/508f8e510cda9bf15b164f5d2607ae08/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/508f8e510cda9bf15b164f5d2607ae08/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-27:19
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-29:19
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-29:19
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c848714ed90d0f9f581916ebe83dfd20/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c848714ed90d0f9f581916ebe83dfd20/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/150df65fda127761f8808f99afdad62a/play-services-vision-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/150df65fda127761f8808f99afdad62a/play-services-vision-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b36abc7dfecd111d3dd022886601f3b4/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b36abc7dfecd111d3dd022886601f3b4/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2d4fa56eb6cff74bed90c752b06e2546/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2d4fa56eb6cff74bed90c752b06e2546/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dcb83e0f190de87b784355c627b3e562/play-services-vision-common-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dcb83e0f190de87b784355c627b3e562/play-services-vision-common-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/820316acb0e7f10246d330d791f36a32/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/820316acb0e7f10246d330d791f36a32/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/52864472e16852009105510fb159f2c2/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/52864472e16852009105510fb159f2c2/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/88dcccca758cbedb1c6555d402cd6166/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/88dcccca758cbedb1c6555d402cd6166/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/15370436b1c210ec73080913e33579d4/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/15370436b1c210ec73080913e33579d4/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cb3e157293161e906bffec86c96ba819/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cb3e157293161e906bffec86c96ba819/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e20a6ab22c22d9a9cd447df55bd44a00/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e20a6ab22c22d9a9cd447df55bd44a00/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/50f4df11d396365161c6c457888f10ea/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/50f4df11d396365161c6c457888f10ea/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6906ffed2aea90544a1253c2c642f49b/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6906ffed2aea90544a1253c2c642f49b/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b23483a9f0925625be2bceb9283c5376/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b23483a9f0925625be2bceb9283c5376/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c5d7caa9a16de2f31ef914b76d4def52/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c5d7caa9a16de2f31ef914b76d4def52/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/45898d21a7508b711b197350fbe2420f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/45898d21a7508b711b197350fbe2420f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e38b5434e330ced18c78c386f9034244/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e38b5434e330ced18c78c386f9034244/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:31:7-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c5d7caa9a16de2f31ef914b76d4def52/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:25:48-80
+	android:roundIcon
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:27:5-40
+	android:icon
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:26:5-35
+		REJECTED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:28:5-32
+		REJECTED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:29:5-36
+	tools:replace
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:30:5-54
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:25:16-47
+meta-data#expo.modules.updates.EXPO_UPDATE_URL
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:34:5-35:42
+	android:value
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:35:7-40
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:34:16-67
+meta-data#expo.modules.updates.EXPO_SDK_VERSION
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:36:5-37:50
+	android:value
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:37:7-48
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:36:16-68
+activity#com.lekhajokha.android.MainActivity
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:38:5-47:16
+	android:screenOrientation
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:43:7-43
+	android:label
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:38:44-76
+	android:launchMode
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:40:7-38
+	android:windowSoftInputMode
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:41:7-49
+	android:exported
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:44:15-38
+	android:configChanges
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:39:7-77
+	android:theme
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:42:7-52
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:38:15-43
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:48:5-81
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:48:15-79
+activity#com.lekhajokha.android.SplashActivity
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:50:5-58:16
+	android:label
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:53:9-41
+	android:theme
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:52:9-54
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:51:9-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:54:7-57:23
+action#android.intent.action.MAIN
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:55:9-61
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:55:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:56:9-69
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:56:19-66
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:60:5-63:16
+	android:theme
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml:61:13-76
+uses-sdk
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-restart] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-restart/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-restart] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-restart/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sweet-alert] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-sweet-alert/android/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-sweet-alert] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-sweet-alert/android/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-updates/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_auth] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_app] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_app] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-view-shot] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-view-shot/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-view-shot] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-view-shot/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/508f8e510cda9bf15b164f5d2607ae08/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/508f8e510cda9bf15b164f5d2607ae08/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/160ae897584d7bc35c2dddb0043731a5/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/160ae897584d7bc35c2dddb0043731a5/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [:expo-application] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-application/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-application] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-application/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-barcode-scanner] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-barcode-scanner/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-barcode-scanner] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-barcode-scanner/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-constants/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-constants/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-contacts] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-contacts/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-contacts] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-contacts/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-font/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-font/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-media-library] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-media-library/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-print] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-print/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-print] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-print/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-secure-store] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-secure-store/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-secure-store] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-secure-store/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sms] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sms/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sms] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sms/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sqlite/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sqlite/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-web-browser/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-web-browser/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/core/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/stwpd/Desktop/work/lj_2/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e3afc19ebd2e536b8aa98f87d552465c/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e3afc19ebd2e536b8aa98f87d552465c/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/7446a3a9955bb781d0cdb3e89cb344f0/jetified-android-image-cropper-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/7446a3a9955bb781d0cdb3e89cb344f0/jetified-android-image-cropper-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c95a141630db289f54eff27452c4389b/materialish-progress-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/62ab1ec326cda1f7424fcb1852914795/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/62ab1ec326cda1f7424fcb1852914795/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b650aa5be9e1c30bef93c4c06c2a0857/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b650aa5be9e1c30bef93c4c06c2a0857/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/fb3ec97d70b390d273321c67a9293389/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/fb3ec97d70b390d273321c67a9293389/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/71a85c6b3fad3331509e211bd963e256/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/71a85c6b3fad3331509e211bd963e256/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/8fdb51f2df27428be7b2ccf3875c7387/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/8fdb51f2df27428be7b2ccf3875c7387/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3ba9773346e0f4bbbf35b68de7276bac/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3ba9773346e0f4bbbf35b68de7276bac/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0a4debcf16d91c6c9cd5f476bc830405/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0a4debcf16d91c6c9cd5f476bc830405/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0dacbb372b2e826eb5b9e789426abafe/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0dacbb372b2e826eb5b9e789426abafe/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/14b0cf612cd50b79c90137f3f212e9d6/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/14b0cf612cd50b79c90137f3f212e9d6/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ae772f9eba7abcb8a7c832faa165360e/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ae772f9eba7abcb8a7c832faa165360e/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c848714ed90d0f9f581916ebe83dfd20/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c848714ed90d0f9f581916ebe83dfd20/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/150df65fda127761f8808f99afdad62a/play-services-vision-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/150df65fda127761f8808f99afdad62a/play-services-vision-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b769ff51b79fae1a4da0b77568dc3607/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b769ff51b79fae1a4da0b77568dc3607/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc1769c235a9b77b27705026b0a82f/exifinterface-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc1769c235a9b77b27705026b0a82f/exifinterface-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b36abc7dfecd111d3dd022886601f3b4/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b36abc7dfecd111d3dd022886601f3b4/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2d4fa56eb6cff74bed90c752b06e2546/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2d4fa56eb6cff74bed90c752b06e2546/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dcb83e0f190de87b784355c627b3e562/play-services-vision-common-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dcb83e0f190de87b784355c627b3e562/play-services-vision-common-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ec0728fa4206cb1af1c82e27e484cb9d/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ec0728fa4206cb1af1c82e27e484cb9d/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/820316acb0e7f10246d330d791f36a32/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/820316acb0e7f10246d330d791f36a32/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4a8e86292b3a9a73fe84306ef2c2f2c8/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4a8e86292b3a9a73fe84306ef2c2f2c8/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/52864472e16852009105510fb159f2c2/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/52864472e16852009105510fb159f2c2/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/614a69d51ed39d51538884eebd02d1c2/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/614a69d51ed39d51538884eebd02d1c2/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/88dcccca758cbedb1c6555d402cd6166/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/88dcccca758cbedb1c6555d402cd6166/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/15370436b1c210ec73080913e33579d4/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/15370436b1c210ec73080913e33579d4/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cb3e157293161e906bffec86c96ba819/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cb3e157293161e906bffec86c96ba819/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e20a6ab22c22d9a9cd447df55bd44a00/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e20a6ab22c22d9a9cd447df55bd44a00/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d4c9f06b59801d82405049964f5d2239/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e8c38dd34d570febcf900ca2a9b56db8/firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e8c38dd34d570febcf900ca2a9b56db8/firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/50f4df11d396365161c6c457888f10ea/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/50f4df11d396365161c6c457888f10ea/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6906ffed2aea90544a1253c2c642f49b/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6906ffed2aea90544a1253c2c642f49b/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b23483a9f0925625be2bceb9283c5376/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b23483a9f0925625be2bceb9283c5376/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65d59802e0b20361306704ee348ccb03/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65d59802e0b20361306704ee348ccb03/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/786cb095adbb54689a19b0090ceb604e/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/786cb095adbb54689a19b0090ceb604e/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/59b8a590630168cdbfa917baf6123af1/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/59b8a590630168cdbfa917baf6123af1/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d62959529098fc803c61851ca86c120f/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d62959529098fc803c61851ca86c120f/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/09275001d93924bd491ec83c8a9b0e3f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/09275001d93924bd491ec83c8a9b0e3f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2c89af87692415af9ba41caa7244aab2/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2c89af87692415af9ba41caa7244aab2/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/182dfd78bd4a6da65fced32119ce4d7d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/182dfd78bd4a6da65fced32119ce4d7d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e5ba6754ec856f8309ad72ee41becf2b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e5ba6754ec856f8309ad72ee41becf2b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3f9bc54ca0cd0bb164907efbd7bac3bc/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3f9bc54ca0cd0bb164907efbd7bac3bc/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e3291b37d0a7ca893d7dc885cbc318e5/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e3291b37d0a7ca893d7dc885cbc318e5/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/29c2d4dc3d8a3577a2a319d737863596/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/29c2d4dc3d8a3577a2a319d737863596/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4d23a82e1eb9f81212f9df8a3ec38492/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4d23a82e1eb9f81212f9df8a3ec38492/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ae0831c0faf930df4c7e63b17ebebc17/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ae0831c0faf930df4c7e63b17ebebc17/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2c17312110008426e49d7f87e758c4e7/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2c17312110008426e49d7f87e758c4e7/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/95b65439f7cabf7bcd1e9ce8af2ec947/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/95b65439f7cabf7bcd1e9ce8af2ec947/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65f1fbdf10e114a0492f4920d10aad47/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65f1fbdf10e114a0492f4920d10aad47/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/42f9361db9fc93aa75667e3be7fa5cf7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/42f9361db9fc93aa75667e3be7fa5cf7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c5d7caa9a16de2f31ef914b76d4def52/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/c5d7caa9a16de2f31ef914b76d4def52/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cc8c2b6b2b04c5ceec9bb5525947f2b4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/cc8c2b6b2b04c5ceec9bb5525947f2b4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/45898d21a7508b711b197350fbe2420f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/45898d21a7508b711b197350fbe2420f/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/57da5e4068af0684766cdbe838a307c0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/57da5e4068af0684766cdbe838a307c0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd66af47375763ee702891503b050951/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd66af47375763ee702891503b050951/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d551f2b11cf359bc8106897b54aef8d7/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d551f2b11cf359bc8106897b54aef8d7/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e38b5434e330ced18c78c386f9034244/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/e38b5434e330ced18c78c386f9034244/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b3a9e60f5620e16525e9048c34e094d2/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b3a9e60f5620e16525e9048c34e094d2/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6b3fc279a34276dd7709b2012ed889b0/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6b3fc279a34276dd7709b2012ed889b0/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/70e1adc87d1f8737a4acc3df13597c93/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/70e1adc87d1f8737a4acc3df13597c93/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5e2db73c2f1d79172d66d8ecea21ff48/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5e2db73c2f1d79172d66d8ecea21ff48/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/353c4b4d778183a5a3ba5c445d9da73f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/353c4b4d778183a5a3ba5c445d9da73f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/81672422c6dcb65ecbc9e1d55f660345/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/81672422c6dcb65ecbc9e1d55f660345/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0b09324b7a699fde73a4caaa3717260b/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0b09324b7a699fde73a4caaa3717260b/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4bed7fd2f288998747769a96750bc8c6/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/4bed7fd2f288998747769a96750bc8c6/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2039232070df0d70a9395943a005fb7e/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/2039232070df0d70a9395943a005fb7e/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6cd9604dc5adcd44d2a2ad4e2f18a0f0/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6cd9604dc5adcd44d2a2ad4e2f18a0f0/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ca77de279918319a6eefab0842301687/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/ca77de279918319a6eefab0842301687/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/239a326bbc8b7b60cd66f3fefa0de9e0/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/239a326bbc8b7b60cd66f3fefa0de9e0/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/83fbe8265c890ca2bbf58ff144055da4/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/83fbe8265c890ca2bbf58ff144055da4/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0e48a6cb0670650bc85a563c8aa7694c/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/0e48a6cb0670650bc85a563c8aa7694c/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bdbfddfa92f1f5ba022bc2a4c83c25d8/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bdbfddfa92f1f5ba022bc2a4c83c25d8/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stwpd/Desktop/work/lj_2/android/app/src/main/AndroidManifest.xml
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:91
+	android:value
+		ADDED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-88
+	android:name
+		ADDED from [:unimodules-react-native-adapter] /Users/stwpd/Desktop/work/lj_2/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-79
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from [:@react-native-firebase_messaging] /Users/stwpd/Desktop/work/lj_2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+provider#com.imagepicker.ImagePickerProvider
+ADDED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-26:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-74
+provider#expo.modules.imagepicker.ImagePickerFileProvider
+ADDED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-28:20
+	android:grantUriPermissions
+		ADDED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-47
+	android:authorities
+		ADDED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-75
+	android:exported
+		ADDED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:expo-image-picker] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-78
+provider#expo.modules.sharing.SharingFileProvider
+ADDED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:expo-sharing] /Users/stwpd/Desktop/work/lj_2/node_modules/expo-sharing/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-68
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/dbcefa5bfeeca9682ba3eded4fc86ce6/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f4603286aad61c69a316975a69c087c0/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/5c1f3888fbcf25abe2b61aa51360c212/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3c2942fb1d6e783fdccab6add32fe8b0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/6355ac737932e5e50f991a2877da7cad/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/3a4f9eeb9f0690b60b72a2fa284cf754/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/98d7a3b401dbec5c9d852adbde2e265e/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/75656dbef8c17a7ef93cd1a988640fd6/jetified-firebase-auth-20.0.2/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/65edd47802e46caf77e248424d682d0f/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/bd1cbcef5ce0d669c12320bb1ac9b145/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/f197878f8fe6a92f3a9678712caa5829/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a50084fcbc7a859797a2d0e004375dcd/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/91bf8479fa488d858d04171c5068324a/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/stwpd/.gradle/caches/transforms-2/files-2.1/400ca4e0bb4f991c70ac89d844fd823f/jetified-library-3.2.11/AndroidManifest.xml:26:13-120

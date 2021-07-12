@@ -1,0 +1,217 @@
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:36
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:217
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:62
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:200
+-keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:213
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:207
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:230
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:221
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:293
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:273
+-keep class com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:236
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:254
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:173
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:284
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:165
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:298
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:120
+-keep class com.imagepicker.ImagePickerProvider { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:52
+-keep class com.lekhajokha.android.MainActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:36
+-keep class com.lekhajokha.android.MainApplication { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:63
+-keep class com.lekhajokha.android.SplashActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:82
+-keep class com.reactnativecommunity.webview.RNCWebViewFileProvider { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:73
+-keep class com.theartofdev.edmodo.cropper.CropImageActivity { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:129
+-keep class expo.modules.filesystem.FileSystemFileProvider { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:138
+-keep class expo.modules.imagepicker.ImagePickerFileProvider { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:148
+-keep class expo.modules.location.services.LocationTaskService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:152
+-keep class expo.modules.sharing.SharingFileProvider { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:92
+-keep class io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:101
+-keep class io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:93
+-keep class io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:309
+-keep class io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:315
+-keep class io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService { <init>(); }
+# Referenced at /Users/stwpd/Desktop/work/lj_2/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:312
+-keep class io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService { <init>(); }
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_button_bar_material.xml:43
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_title_material.xml:57
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog.xml:51
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog_actions.xml:45
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog_title.xml:41
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_cascading_menu_item_layout.xml:20
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_popup_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_action_mode_bar.xml:19
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_toolbar.xml:43
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_material.xml:18
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog.xml:17
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_button_bar_material.xml:26
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog_actions.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_title_material.xml:45
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog_title.xml:36
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_dialog_title_material.xml:22
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_simple.xml:17
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_simple.xml:25
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/b769ff51b79fae1a4da0b77568dc3607/browser-1.2.0/res/layout/browser_actions_context_menu_page.xml:17
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_bottom_sheet_dialog.xml:26
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/a5f6d35f125d0d78b95eb1c2a2c46508/appcompat-1.2.0/res/layout/abc_alert_dialog_material.xml:41
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_alert_dialog.xml:40
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_calendar_horizontal.xml:29
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_calendar_months.xml:18
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/res/layout/alert_dialog.xml:90
+-keep class cn.pedant.SweetAlert.SuccessTickView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_toolbar.xml:16
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_toolbar_custom_background.xml:16
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_toolbar_elevation.xml:16
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_toolbar_surface.xml:16
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_calendar_month_navigation.xml:32
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_picker_header_fullscreen.xml:36
+-keep class com.google.android.material.button.MaterialButton { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_action_chip.xml:17
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_reflow_chipgroup.xml:25
+-keep class com.google.android.material.chip.Chip { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/test_reflow_chipgroup.xml:19
+-keep class com.google.android.material.chip.ChipGroup { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_calendar_month.xml:18
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_text_input_end_icon.xml:18
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_text_input_start_icon.xml:18
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_picker_header_toggle.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_layout_snackbar.xml:18
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/design_layout_snackbar_include.xml:18
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_picker_text_input_date.xml:31
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_picker_text_input_date_range.xml:32
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_picker_text_input_date.xml:26
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/mtrl_picker_text_input_date_range.xml:26
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/text_view_with_line_height_from_appearance.xml:17
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/text_view_with_line_height_from_layout.xml:17
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/text_view_with_line_height_from_style.xml:17
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/text_view_with_theme_line_height.xml:17
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/d9cc5ee259f114e531a4918ea218bf87/material-1.1.0/res/layout/text_view_without_line_height.xml:17
+-keep class com.google.android.material.textview.MaterialTextView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/27832bad436b52ab1653956b25f1bae9/library-1.5.3/res/layout/alert_dialog.xml:126
+-keep class com.pnikosis.materialishprogress.ProgressWheel { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/beac794a43a3344ab82d1e4a1c965f66/jetified-android-image-cropper-2.7.0/res/layout/crop_image_activity.xml:2
+-keep class com.theartofdev.edmodo.cropper.CropImageView { <init>(...); }
+
+# Referenced at /Users/stwpd/.gradle/caches/transforms-2/files-2.1/beac794a43a3344ab82d1e4a1c965f66/jetified-android-image-cropper-2.7.0/res/layout/crop_image_view.xml:13
+-keep class com.theartofdev.edmodo.cropper.CropOverlayView { <init>(...); }
+
