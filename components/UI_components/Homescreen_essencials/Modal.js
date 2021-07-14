@@ -277,7 +277,6 @@ class MyModal extends React.Component {
                                     this.props.nav.navigate('EntryDetails')
                                     this.props.dismiss()
                                     storeObject.setRecordId(item.date)
-                                    storeObject.setRecordLoanYes(0)
 
                             }
                         }>

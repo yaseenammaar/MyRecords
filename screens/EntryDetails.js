@@ -1,9 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Image, Alert } from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {styles} from '../styles/globalStyle';
-import { Entypo } from '@expo/vector-icons';
-import { MaterialIcons } from '@expo/vector-icons';
-import { AntDesign } from '@expo/vector-icons';
+import {AntDesign, MaterialIcons} from '@expo/vector-icons';
 import dbObject from '../components/database/db';
 import storeObject from "../store/store";
 import * as Sharing from 'expo-sharing';
@@ -18,11 +16,10 @@ export default function EntryDetails(props) {
 
     const [mRecords, setRecords] = useState([])
     const [mIsLoan, setIsLoan] = useState(null)
-    
- 
+
 
     useEffect(() => {
-       
+
         (async () => {
 
             // console.log('loan record id new = ',storeObject.getRecordId())
@@ -32,23 +29,13 @@ export default function EntryDetails(props) {
             // console.log("store loan", storeObject.getRecordLoanYes()===1)
             // console.log("store", storeObject.getRecordId())
             try {
-               
-                if(storeObject.getRecordLoanYes()===0){
-                    const records = await dbObject.getRecordByDate(storeObject.getRecordId())
-                    // const records = await dbObject.getRecordById(storeObject.getRecordId())
-                    setRecords(records)
-                    console.log("records attachment", records)
-                     setIsLoan(0)
-                }else{
-                    // console.log("record id", storeObject.getRecordId());
-                    const records = await dbObject.getLoanRecordById(storeObject.getRecordId())
-                    // console.log("recordsss", records);
-                    // console.log('loanrecord',records['_array'])
-                    setRecords(records)
-                    setIsLoan(1)
-                }
-            }
-            catch (e) {
+
+                const records = await dbObject.getRecordByDate(storeObject.getRecordId())
+                // const records = await dbObject.getRecordById(storeObject.getRecordId())
+                setRecords(records)
+                console.log("records attachment", records)
+                setIsLoan(0)
+            } catch (e) {
                 // console.log('error',JSON.stringify(e))
             }
 
@@ -57,11 +44,8 @@ export default function EntryDetails(props) {
     }, []);
 
 
-
-
-    
-    const Prints = 
-    `<style>
+    const Prints =
+        `<style>
     body {
       font-family: "lato", sans-serif;
     }
@@ -176,7 +160,7 @@ export default function EntryDetails(props) {
                                             KwhmRYAGA+CBB5pbgiCNm8Ko/C64V1T8gRJ5TBh+W7RYzwuuMWoBKtRVuAGbeF6+P7YnyOb0XHw/wBX7yl+no68Brk/zfoMXw3UCtTDILCpfYK4IyzMivRK6GC+U4Wopwsvg4Lk8kr8VrniWRApn/CSWaVnGi/qVVF6I2HjdO0zyOrZihxGwfUuLkxpW7ebvCKPwuuKhGPNFBs+Ar2JnwuuJGxRg4QoLNWDWZVDhHAcLaWzgsR1Ygpl2ENuHxfy7+bAmlY4iaDqJeoO/A/Il7wLyN+jwebYKPjYHUhQ6u9Ghs/2gWEYMj+mciA1BArUwADNgAr3gAF0CHiPjwCxNhQFsUvmYYOOz98drBJcPI6ondcwKMo/YcInGehGrRYuYWjC3M/R3ZECdhwdA2RuExqKcAixh6FtJdgaKxCfC65zrP2ESMeHwADzgaN7pzE0I2rAWJsL8Dm23HKrPzohdAlVOMIF2dErOAoC6iYwOyxleiiqFtBmzSrOs0YpeS1dvjsQXnkksrH7yu/OkgMAFa4pNhuoa6Xz35wyIBOJZ4zVzKtlPHyiix+V4uex43TtM8jqmeP/AIqYhZq6ctgxDE31VDiIhComEOmDubCwZe2UXYNONRPjiP5/aMtSB5QBg2levUojF6hwR+d2F7FaXWdc/dz679vEOnBcl5uvqtn/ANRjJVkaTbqNKqzhqo3fj5iacPToXsYU5GuyrKS4+/WMDygQLXxu8XgNQ/4dpv4xIe8qzBAAgRm7z08WY+y1LuqvZtv+WvrHIaqVn2Ij5CoWcLS4HTJXjTrAUjMXTvtTWBn7w6bLt32NYzc+zrCPWCC8nXivTAsEaUGmmr8dgQK1c994scP/AO75h87hVKaMrf8AKR//2Q=="
                                               border="0" alt="" width="58" height="auto" style="display: block;"/><br>
     <h1>Lekha Jokha Report</h1>
-    <h5>`+Moment( new Date()).format('LLLL')   +`</h5>
+    <h5>` + Moment(new Date()).format('LLLL') + `</h5>
     
     <table class="datagrid">
       <thead>
@@ -191,22 +175,18 @@ export default function EntryDetails(props) {
               <tbody>
 
     `
-  
-
-    
 
 
-const sharePdf = (url) => {
-    Sharing.shareAsync(url)
-}
-    
-      
-      
-      const print = async (html) => {
+    const sharePdf = (url) => {
+        Sharing.shareAsync(url)
+    }
+
+
+    const print = async (html) => {
         try {
-          // console.log(mRecords)
-          mRecords.forEach(element => {
-            html = html+`
+            // console.log(mRecords)
+            mRecords.forEach(element => {
+                html = html + `
         <tr>
         <td>${element.book_id}</td>
         <td>${element.partner_contact}</td>
@@ -214,143 +194,160 @@ const sharePdf = (url) => {
         <td>${element.amount}</td>
         <td>${element.date.substring(4, 15).toUpperCase() + " - " + element.date.substring(16, 21)}</td></tr>
      `
-        
 
-        
-      });
-      html=html+`</tbody></table></div>`
-          const { uri } = await Print.printToFileAsync({ 'html':html });
-          
-          if (Platform.OS === "ios") {
-            await Sharing.shareAsync(uri);
-            return uri;
-          } else {
-            const permission = await MediaLibrary.requestPermissionsAsync();      if (permission.granted) {
-            //     const asset =await MediaLibrary.createAssetAsync(uri);
-            //   alert(console.log(asset))
-            //   return uri;
-            var currentdate = new Date(); 
-            var datetime = currentdate.getDate() + "_"
-                + (currentdate.getMonth()+1)  + "_" 
-                + currentdate.getFullYear() + "-"  
-                + currentdate.getHours() + ":"  
-                + currentdate.getMinutes() + ":" 
-                + currentdate.getSeconds();
-            const pdfName = `${uri.slice(
-                0,
-                uri.lastIndexOf('/') + 1
-            )}Report_${datetime}.pdf`
-    
-            await FileSystem.moveAsync({
-                from: uri,
-                to: pdfName,
-            })
-            sharePdf(pdfName)
+
+            });
+            html = html + `</tbody></table></div>`
+            const {uri} = await Print.printToFileAsync({'html': html});
+
+            if (Platform.OS === "ios") {
+                await Sharing.shareAsync(uri);
+                return uri;
+            } else {
+                const permission = await MediaLibrary.requestPermissionsAsync();
+                if (permission.granted) {
+                    //     const asset =await MediaLibrary.createAssetAsync(uri);
+                    //   alert(console.log(asset))
+                    //   return uri;
+                    var currentdate = new Date();
+                    var datetime = currentdate.getDate() + "_"
+                        + (currentdate.getMonth() + 1) + "_"
+                        + currentdate.getFullYear() + "-"
+                        + currentdate.getHours() + ":"
+                        + currentdate.getMinutes() + ":"
+                        + currentdate.getSeconds();
+                    const pdfName = `${uri.slice(
+                        0,
+                        uri.lastIndexOf('/') + 1
+                    )}Report_${datetime}.pdf`
+
+                    await FileSystem.moveAsync({
+                        from: uri,
+                        to: pdfName,
+                    })
+                    sharePdf(pdfName)
+                }
+
+
+            }
+        } catch (error) {
+            console.error(error);
         }
-    
-       
-          }  } catch (error) {
-          console.error(error);
-        }
-      };
+    };
 
 
     return (
-        <View style={{flex:1}}>
-            
-            <View style={[styles.container,{backgroundColor:'#4e54c8'}]}>
+        <View style={{flex: 1}}>
 
-            
+            <View style={[styles.container, {backgroundColor: '#4e54c8'}]}>
 
-            {/* One Contact */}
-                        <View style={[styles.row, stylesI.oneCustomer,{borderRadius:0,borderTopEndRadius:5,borderTopLeftRadius:5}]}>
 
-                            {/* Initials */}
-                            <View style={styles.initialsCont}>
-                                <Text style={styles.initialText}>{mRecords?mRecords[0]?.partner_contact[1]:console.log('')}</Text>
+                {/* One Contact */}
+                <View style={[styles.row, stylesI.oneCustomer, {
+                    borderRadius: 0,
+                    borderTopEndRadius: 5,
+                    borderTopLeftRadius: 5
+                }]}>
 
-                            </View>
-                            {/* Initials */}
+                    {/* Initials */}
+                    <View style={styles.initialsCont}>
+                        <Text
+                            style={styles.initialText}>{mRecords ? mRecords[0]?.partner_contact[1] : console.log('')}</Text>
 
-                            <View style={styles.cNameTimeCont}>
-                                <Text style={styles.cName}>{
-                                    mRecords?mRecords[0]?.partner_contact:console.log('')
-                                }</Text>
-                                <Text style={[styles.greyTextSm, {margin: 0, paddingHorizontal: 0}]}>{
+                    </View>
+                    {/* Initials */}
 
-                                   mRecords?mRecords[0]?.date.slice(0,25):console.log('')
-                                }</Text>
-                            </View>
+                    <View style={styles.cNameTimeCont}>
+                        <Text style={styles.cName}>{
+                            mRecords ? mRecords[0]?.partner_contact : console.log('')
+                        }</Text>
+                        <Text style={[styles.greyTextSm, {margin: 0, paddingHorizontal: 0}]}>{
 
-                            {
-                                mRecords?mRecords[0]?.take===1?
-                                <View style={{alignItems:'flex-end'}}>
-                                    <Text style={[styles.greyTextSm, {margin: 0, paddingHorizontal: 0}]}>You Got</Text>
-                                </View>:<View style={{alignItems:'flex-end'}}>
-                                    <Text style={[styles.greyTextSm, {margin: 0, paddingHorizontal: 0}]}>You Gave</Text>
-                                </View>:console.log('')
-                            }
-                            </View>
-                    {/* One Contact End */}
+                            mRecords ? mRecords[0]?.date.slice(0, 25) : console.log('')
+                        }</Text>
+                    </View>
 
-                    <View style={{borderBottomWidth: .2, borderBottomColor: '#dedede'}}/>
-
-                    
-                        
                     {
-                        mIsLoan===0?
-                        mRecords?mRecords[0]?.take===0?
-                        <View style={[styles.row,{borderRadius:0}]}><Text>Running Balance</Text><Text style={styles.giveAmountText}>₹{mRecords[0]?.amount}</Text></View>
-                        :<View style={[styles.row,{borderRadius:0}]}><Text>Running Balance</Text><Text style={styles.takeAmountText}>₹{mRecords[0]?.amount}</Text></View>:
-                        console.log(''):
-                        mRecords?
-                            mRecords[0]?.take===0?
-                            <View style={[styles.row,{borderRadius:0}]}><Text>Running Balance</Text><Text style={styles.giveAmountText}>₹{(getTotalAmount(mRecords[0]?.amountGiven, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountGiven)}</Text></View>
-                            :<View style={[styles.row,{borderRadius:0}]}><Text>Running Balance</Text><Text style={styles.takeAmountText}>₹{(getTotalAmount(mRecords[0]?.amountTaken, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountTaken)}</Text></View>:
-                            console.log('')
+                        mRecords ? mRecords[0]?.take === 1 ?
+                            <View style={{alignItems: 'flex-end'}}>
+                                <Text style={[styles.greyTextSm, {margin: 0, paddingHorizontal: 0}]}>You Got</Text>
+                            </View> : <View style={{alignItems: 'flex-end'}}>
+                                <Text style={[styles.greyTextSm, {margin: 0, paddingHorizontal: 0}]}>You Gave</Text>
+                            </View> : console.log('')
                     }
-                        
-                   
+                </View>
+                {/* One Contact End */}
 
-                    <View style={{borderBottomWidth: .2, borderBottomColor: '#dedede'}}/>
+                <View style={{borderBottomWidth: .2, borderBottomColor: '#dedede'}}/>
 
-                    <View style={{alignItems:'center',backgroundColor:'white', height:40,justifyContent:'center',borderBottomLeftRadius:5,borderBottomRightRadius:5}}>
-                        <TouchableOpacity>
-                         {/* <Text style={[styles.blueTextSm]}> <Entypo name="edit" size={18} color="#4e54c8" />   EDIT ENTRY</Text> 
+
+                {
+                    mIsLoan === 0 ?
+                        mRecords ? mRecords[0]?.take === 0 ?
+                            <View style={[styles.row, {borderRadius: 0}]}><Text>Running Balance</Text><Text
+                                style={styles.giveAmountText}>₹{mRecords[0]?.amount}</Text></View>
+                            : <View style={[styles.row, {borderRadius: 0}]}><Text>Running Balance</Text><Text
+                                style={styles.takeAmountText}>₹{mRecords[0]?.amount}</Text></View> :
+                            console.log('') :
+                        mRecords ?
+                            mRecords[0]?.take === 0 ?
+                                <View style={[styles.row, {borderRadius: 0}]}><Text>Running Balance</Text><Text
+                                    style={styles.giveAmountText}>₹{(getTotalAmount(mRecords[0]?.amountGiven, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountGiven)}</Text></View>
+                                : <View style={[styles.row, {borderRadius: 0}]}><Text>Running Balance</Text><Text
+                                    style={styles.takeAmountText}>₹{(getTotalAmount(mRecords[0]?.amountTaken, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountTaken)}</Text></View> :
+                            console.log('')
+                }
+
+
+                <View style={{borderBottomWidth: .2, borderBottomColor: '#dedede'}}/>
+
+                <View style={{
+                    alignItems: 'center',
+                    backgroundColor: 'white',
+                    height: 40,
+                    justifyContent: 'center',
+                    borderBottomLeftRadius: 5,
+                    borderBottomRightRadius: 5
+                }}>
+                    <TouchableOpacity>
+                        {/* <Text style={[styles.blueTextSm]}> <Entypo name="edit" size={18} color="#4e54c8" />   EDIT ENTRY</Text>
                                                      mRecords?"You gave ₹"+mRecords[0]?.amountGiven+" to "+mRecords[0]?.partner_contact:console.log('')}
 */}
-                        </TouchableOpacity>
-                    </View>
+                    </TouchableOpacity>
+                </View>
             </View>
 
             <View style={[styles.container]}>
-                    <View style={[styles.container,{backgroundColor:'white',borderRadius:5}]}>
-                    <View style={{marginBottom:10}}>
+                <View style={[styles.container, {backgroundColor: 'white', borderRadius: 5}]}>
+                    <View style={{marginBottom: 10}}>
                         {/* <Text><MaterialIcons name="sms" size={18} color="black" /> SMS disable</Text> */}
-                        </View>
+                    </View>
 
-                        <View style={{borderBottomWidth: .2, borderBottomColor: '#dedede'}}/>
+                    <View style={{borderBottomWidth: .2, borderBottomColor: '#dedede'}}/>
 
-                        <View>
-                            <Text style={[stylesI.greyTextSm]}>{
-                                // console.log("teee",mRecords[0])
-                                mIsLoan===1?
-                                mRecords?mRecords[0]?.amountGiven!==0?
-                                
-                                    "You Gave ₹"+mRecords[0].amountGiven+" to "+mRecords[0].partner_contact:
-                                    "You Got ₹"+mRecords[0].amountTaken+" to "+mRecords[0].partner_contact:console.log(''):null
-                                
-                            }
-                                </Text>
-                            {mRecords?mRecords[0]?.remarks!=""?<Text style={[stylesI.greyTextSm]}>{mRecords[0]?.remarks}</Text>:console.log(''):console.log('')}
-                            {
+                    <View>
+                        <Text style={[stylesI.greyTextSm]}>{
+                            // console.log("teee",mRecords[0])
+                            mIsLoan === 1 ?
+                                mRecords ? mRecords[0]?.amountGiven !== 0 ?
+
+                                    "You Gave ₹" + mRecords[0].amountGiven + " to " + mRecords[0].partner_contact :
+                                    "You Got ₹" + mRecords[0].amountTaken + " to " + mRecords[0].partner_contact : console.log('') : null
+
+                        }
+                        </Text>
+                        {mRecords ? mRecords[0]?.remarks != "" ? <Text
+                            style={[stylesI.greyTextSm]}>{mRecords[0]?.remarks}</Text> : console.log('') : console.log('')}
+                        {
                             //mRecords?mRecords[0]?.type?<Text style={[stylesI.greyTextSm]}>{mRecords[0]?.type}</Text>:console.log(''):console.log('')
-                            }
-                            {mRecords?mRecords[0]?.attachment!='null'?<View style={[{marginRight:2}]}><Image style={{width: 100, height: 100,borderRadius:8}} source={{ uri: mRecords[0]?.attachment}}/></View>:console.log(''):console.log('')}
-                            {
-                                mIsLoan===1?
-                                    mRecords?
-                                    <View >
+                        }
+                        {mRecords ? mRecords[0]?.attachment != 'null' ?
+                            <View style={[{marginRight: 2}]}><Image style={{width: 100, height: 100, borderRadius: 8}}
+                                                                    source={{uri: mRecords[0]?.attachment}}/></View> : console.log('') : console.log('')}
+                        {
+                            mIsLoan === 1 ?
+                                mRecords ?
+                                    <View>
                                         {
                                             mRecords[0]?.give === 1 ?
                                                 <Text
@@ -358,69 +355,98 @@ const sharePdf = (url) => {
                                                 <Text
                                                     style={[styles.greyTextSm, styles.takeAmountText]}>{'Pricipal ₹ ' + mRecords[0]?.amountTaken}</Text>
                                         }
-                                        
-{ 
-   
-                    mRecords[0]?.give === 1 ?
-                    <View >
-                                        <Text
-                                            style={[styles.greyTextSm, styles.boldText, {color: "#f9c032"}]}>{' Interest         + ₹ ' + getTotalAmount(mRecords[0]?.amountGiven, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths)}</Text>
-                                        <Text
-                                            style={[styles.greyTextSm, styles.boldText, {color: "black"}]}>{' Final              = ₹ ' + (getTotalAmount(mRecords[0]?.amountGiven, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountGiven)}</Text>
-                                       </View>
-: <View >
-<Text
-    style={[styles.greyTextSm, styles.boldText, {color: "#f9c032"}]}>{' Interest         + ₹ ' + getTotalAmount(mRecords[0]?.amountTaken, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths)}</Text>
-<Text
-    style={[styles.greyTextSm, styles.boldText, {color: "black"}]}>{' Final              = ₹ ' + (getTotalAmount(mRecords[0]?.amountTaken, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountTaken)}</Text>
-</View>
-                                    
-                            }
-                                    </View>:console.log(''):console.log('')
-                            }
 
-                            {/*<Text style={[stylesI.greyTextSm]}>You'll give ₹ 9000 in total</Text>
+                                        {
+
+                                            mRecords[0]?.give === 1 ?
+                                                <View>
+                                                    <Text
+                                                        style={[styles.greyTextSm, styles.boldText, {color: "#f9c032"}]}>{' Interest         + ₹ ' + getTotalAmount(mRecords[0]?.amountGiven, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths)}</Text>
+                                                    <Text
+                                                        style={[styles.greyTextSm, styles.boldText, {color: "black"}]}>{' Final              = ₹ ' + (getTotalAmount(mRecords[0]?.amountGiven, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountGiven)}</Text>
+                                                </View>
+                                                : <View>
+                                                    <Text
+                                                        style={[styles.greyTextSm, styles.boldText, {color: "#f9c032"}]}>{' Interest         + ₹ ' + getTotalAmount(mRecords[0]?.amountTaken, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths)}</Text>
+                                                    <Text
+                                                        style={[styles.greyTextSm, styles.boldText, {color: "black"}]}>{' Final              = ₹ ' + (getTotalAmount(mRecords[0]?.amountTaken, mRecords[0]?.interest, mRecords[0]?.installment, mRecords[0]?.totalMonths) + mRecords[0]?.amountTaken)}</Text>
+                                                </View>
+
+                                        }
+                                    </View> : console.log('') : console.log('')
+                        }
+
+                        {/*<Text style={[stylesI.greyTextSm]}>You'll give ₹ 9000 in total</Text>
                             <Text style={[stylesI.greyTextSm]}>See txn history</Text>*/}
-                        </View>
-
-
                     </View>
+
+
+                </View>
             </View>
 
-            <View style={[styles.row,{alignItems:'center',margin:10,marginVertical:5,height:50,borderRadius:5}]}>
-            {mRecords?mRecords[0]?.uploaded===1?<Text> <MaterialIcons name="backup" size={16} color="black" /> Entry is backed up</Text>:<Text> <MaterialIcons name="backup" size={16} color="black" /> Entry is not backed up</Text>:console.log('')}
-        </View>
+            <View style={[styles.row, {
+                alignItems: 'center',
+                margin: 10,
+                marginVertical: 5,
+                height: 50,
+                borderRadius: 5
+            }]}>
+                {mRecords ? mRecords[0]?.uploaded === 1 ?
+                    <Text> <MaterialIcons name="backup" size={16} color="black"/> Entry is backed up</Text> :
+                    <Text> <MaterialIcons name="backup" size={16} color="black"/> Entry is not backed
+                        up</Text> : console.log('')}
+            </View>
 
-        <View style={[styles.row,{position:'absolute',bottom:0,width:'100%'}]}>
+            <View style={[styles.row, {position: 'absolute', bottom: 0, width: '100%'}]}>
 
-        <TouchableOpacity style={[{width:'49%',borderWidth:1,borderColor:'red',padding:12,borderRadius:6,justifyContent:"center",alignItems:'center',flexDirection:'row',margin:3}]}
-         onPress={() => {
-            //  Alert.alert(mRecords[0].date)
-            mIsLoan===1?
-            
-            dbObject.removeEntry(mRecords[0].lastupdated,1).then(
-                navigation.goBack()
-            ):
-            dbObject.removeEntry(mRecords[0].date,0).then(
-                navigation.goBack()
-            )
+                <TouchableOpacity style={[{
+                    width: '49%',
+                    borderWidth: 1,
+                    borderColor: 'red',
+                    padding: 12,
+                    borderRadius: 6,
+                    justifyContent: "center",
+                    alignItems: 'center',
+                    flexDirection: 'row',
+                    margin: 3
+                }]}
+                                  onPress={() => {
+                                      //  Alert.alert(mRecords[0].date)
+                                      mIsLoan === 1 ?
 
-            
-          }}>
-        <AntDesign name="delete" size={20} color="red" /><Text style={[styles.boldText,{color:'red'}]}> DELETE</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={[{width:'49%',padding:12,borderRadius:6,justifyContent:"center",alignItems:'center',flexDirection:'row',margin:3,backgroundColor:'#4e54c8'}]}
-         onPress={() => {
-            print(Prints)
-            
-          }}>
-        <AntDesign name="sharealt" size={20} color="white" /><Text style={[styles.boldText,{color:'white'}]}> SHARE</Text>
-        </TouchableOpacity>
+                                          dbObject.removeEntry(mRecords[0].lastupdated, 1).then(
+                                              navigation.goBack()
+                                          ) :
+                                          dbObject.removeEntry(mRecords[0].date, 0).then(
+                                              navigation.goBack()
+                                          )
 
 
-</View>
+                                  }}>
+                    <AntDesign name="delete" size={20} color="red"/><Text
+                    style={[styles.boldText, {color: 'red'}]}> DELETE</Text>
+                </TouchableOpacity>
 
+                <TouchableOpacity style={[{
+                    width: '49%',
+                    padding: 12,
+                    borderRadius: 6,
+                    justifyContent: "center",
+                    alignItems: 'center',
+                    flexDirection: 'row',
+                    margin: 3,
+                    backgroundColor: '#4e54c8'
+                }]}
+                                  onPress={() => {
+                                      print(Prints)
+
+                                  }}>
+                    <AntDesign name="sharealt" size={20} color="white"/><Text
+                    style={[styles.boldText, {color: 'white'}]}> SHARE</Text>
+                </TouchableOpacity>
+
+
+            </View>
 
 
         </View>
@@ -446,8 +472,6 @@ function getTotalAmount(amount, interest, installment, numberOfMonths) {
 }
 
 
-
-
 const stylesI = StyleSheet.create({
 
     headerBtn: {
@@ -467,9 +491,9 @@ const stylesI = StyleSheet.create({
         paddingVertical: 5,
         borderRadius: 25
     },
-    greyTextSm:{
-        marginVertical:5,
-        color:'gray',
-        fontSize:14
+    greyTextSm: {
+        marginVertical: 5,
+        color: 'gray',
+        fontSize: 14
     }
 });

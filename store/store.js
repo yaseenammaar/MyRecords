@@ -7,17 +7,13 @@ class store {
            allActiveBooks:{},
         sumoftakes:0,
         records:{},
-        loanRecords:{},
         contact:"",
            currentBook:0,
            currentBookData:{},
         isBookUpdated:false,
-        openLoan:0,
            currentLan:"english",
            currentCurrency:"INR",
            recordid:0,
-           recordloanyes:0,
-           loanName:"",
            hideType:false,
            Gg:0,
            Rd:0
@@ -44,26 +40,11 @@ class store {
         return this.state.hideType
     }
 
-
-    setLoanName(name){
-        this.state.loanName = name
-    }
-
-    getLoanName(){
-        return this.state.loanName
-    }
-
     setRecordId(recordid){
         this.state.recordid = recordid
     }
     getRecordId(){
         return this.state.recordid
-    }
-    setRecordLoanYes(recordloanyes){
-        this.state.recordloanyes = recordloanyes
-    }
-    getRecordLoanYes(){
-        return this.state.recordloanyes
     }
 
     setCurrentCurrency(currency){
@@ -89,13 +70,6 @@ class store {
     }
     getCurrentLan(){
         return this.state.currentLan
-    }
-
-    setOpenLoan(openLoan){
-        this.state.openLoan = openLoan
-    }
-    getOpenLoan(){
-        return this.state.openLoan
     }
 
     getExistingCustomers() {
@@ -171,13 +145,6 @@ class store {
     }
     getAllActiveBooks(){
         return this.state.allActiveBooks
-    }
-
-    setLoanRecords(data){
-        this.state.loanRecords = data
-    }
-    getLoanRecords(){
-        return this.state.loanRecords
     }
 
 

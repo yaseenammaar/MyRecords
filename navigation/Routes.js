@@ -1,15 +1,12 @@
 import React from "react";
 import CollectionScreen from "../screens/CollectionScreen";
 import OneCustomerScreen from "../screens/OneCustomerScreen";
-import OneCustomerScreenLoan from "../screens/OneCustomerScreenLoan";
-import YouGaveScreenLoan from "../screens/YouGaveScreenLoan";
-import YouGotScreenLoan from "../screens/YouGotScreenLoan";
+
 import YouGaveScreen from "../screens/YouGaveScreen";
 import YouGotScreen from "../screens/YouGotScreen";
 import QrCodeGen from "../screens/QrCodeGen";
 import webQrScanScreen from "../screens/webQrScanScreen";
 import ViewReportScreen from "../screens/ViewReportScreen";
-import ViewReportScreenLoan from "../screens/ViewReportScreenLoan";
 import ContactScreen from "../screens/ContactScreen";
 import ProfileEditScreen from "../screens/ProfileEditScreen";
 import BusinessCard from "../screens/BusinessCard";
@@ -32,7 +29,6 @@ import {bindActionCreators} from "redux";
 import bin from "../screens/bin";
 import CashLedgerScreen from "../screens/CashLedgerScreen";
 import DuePayableScreen from "../screens/DuePayableScreen";
-import addLoanInput from "../screens/addLoanInputs";
 import AddNewRecordsHomeTab2_3 from "../components/UI_components/Homescreen_essencials/AddNewRecordHomeScreenTab2&3";
 import OneCustomerProfileScreen from "../screens/OneCustomerProfileScreen";
 import {getTitleOfScreens} from "../screens/UiComponents/transactionComponents";
@@ -55,30 +51,6 @@ function Routes(props) {
                         headerRight: null,
                         headerLeft: null
                       }}/>
-
-        <Stack.Screen name="OneCustomerScreenLoan" component={OneCustomerScreenLoan} options={{
-          headerShown: false,
-          headerRight: null,
-          headerLeft: null
-        }}/>
-
-
-        <Stack.Screen name="YouGaveScreenLoan" component={YouGaveScreenLoan}
-                      options={({route}) => ({
-                        title: 'You Gave Loan: '+route.params.name,
-                        headerStyle: {backgroundColor: '#f1f2f3'},
-                        headerTintColor: 'red'
-                      })
-                    }/>
-
-
-        <Stack.Screen name="YouGotScreenLoan" component={YouGotScreenLoan}
-                      options={({route}) => ({
-                        title: 'You Got Loan: '+route.params.name,
-                        headerStyle: {backgroundColor: '#f1f2f3'},
-                        headerTintColor: 'green'
-                      })
-                    }/>
 
         <Stack.Screen name="YouGaveScreen" component={YouGaveScreen}
                       options={({route}) => ({
@@ -108,12 +80,6 @@ function Routes(props) {
           headerTintColor: 'white'
         }}/>
 
-        <Stack.Screen name="ViewReportScreenLoan" component={ViewReportScreenLoan} options={{
-                  title: 'View Report Loan',
-                  headerStyle: {backgroundColor: '#4e54c8'},
-                  headerTintColor: 'white'
-                }}/>
-
         <Stack.Screen
           name="ContactScreen"
           component={ContactScreen}
@@ -137,12 +103,7 @@ function Routes(props) {
 <Stack.Screen name="profitLoss" component={profitLoss}
                       options={{title: 'ProfitLoss'}}/>
 
-{/* <Stack.Screen name="addLoanInput" component={addLoanInput}
-                      options={({navigation}) => ({{title: 'Add New Loan'}})/> */}
 
-                      <Stack.Screen name="addLoanInputs" component={addLoanInput} options={({navigation}) => ({
-                        title: 'Add New Loan'
-                       } )} />
 
         <Stack.Screen name="CashLedgerScreen" component={CashLedgerScreen}
                       options={{title: 'CashLedger'}}/>

@@ -807,7 +807,6 @@ const sharePdf = (url) => {
                                 {
                                     navigation.navigate('EntryDetails')
                                     storeObject.setRecordId(item.date)
-                                    storeObject.setRecordLoanYes(0)
                             }
                         }>
                                 <View style={[styles.row, styleI.noPad]}>

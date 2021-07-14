@@ -1,7 +1,6 @@
 import {createMaterialBottomTabNavigator} from "@react-navigation/material-bottom-tabs";
 import * as React from 'react';
 import HomeScreen from '../screens/HomeScreen';
-import Loan from '../screens/Loan';
 import More from "../screens/More";
 import Header from './shared/header';
 import * as lang from "../translations/lang.json"
@@ -38,21 +37,6 @@ export default function BottomTabNavigator({navigation, route}) {
             : <Image style={{width: 18, height: 18}} source={require('../assets/icons/homegrey.png')}/>
          ),
                     tabBarLabel: lang[lan]['home']
-                }}
-            />
-
-            <BottomTab.Screen
-                name="Loan"
-                component={Loan}
-                options={{
-                    // title: 'Loan',
-
-                    tabBarIcon: ({focused}) =>  (
-            focused
-            ? <Image style={{width: 18, height: 18}} source={require('../assets/icons/loan.png')}/>
-            : <Image style={{width: 18, height: 18}} source={require('../assets/icons/loangrey.png')}/>
-         ),
-                    tabBarLabel: lang[lan]['loan']
                 }}
             />
 

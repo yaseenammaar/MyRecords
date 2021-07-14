@@ -1,7 +1,6 @@
 import React from 'react';
 import * as SQLite from 'expo-sqlite';
 import storeObject from "../../store/store";
-import { Alert } from 'react-native';
 
 
 const db = SQLite.openDatabase("ljdbtest69.db", null, SQLite.CREATE_IF_NECESSARY);
@@ -350,32 +349,8 @@ class database {
         })
     }
 
-    setRemoteIdLoanName(name, remoteid){//se
-        db.transaction(tx => {
-            tx.executeSql(
-                "UPDATE loanname SET remoteid='"+remoteid+"' WHERE name='"+name+"'",
-                [],
-                (tx, results) => {
-                    // //console.log('setrecord : Results', results);
-                }, (t, error) => {
-                    // //console.log('setrecord : error : ', error)
-                }
-            );
-        });
-    }
-     setRemoteIdLoanRecords(recordid, remoteid){
-        db.transaction(tx => {
-            tx.executeSql(
-                "UPDATE loanrecords SET remoteid='"+remoteid+"' WHERE recordid="+recordid,
-                [],
-                (tx, results) => {
-                    // //console.log('setrecord : Results', results);
-                }, (t, error) => {
-                    // //console.log('setrecord : error : ', error)
-                }
-            );
-        });
-    }
+
+
     setRemoteIdRecord(recordid, remoteid){
         db.transaction(tx => {
             tx.executeSql(
@@ -469,58 +444,6 @@ class database {
         })
 
     }
-
-     setLoanGivenRecord(bookid, amountGiven, date, duedate, give, take, attachment, remarks, partner_contact,customerName, phoneid, typedb, mode, installment, totalMonths, interest, loanName, installmentAmount) {
-
-         //recordid, txid, book_id, amount, date, duedate, give, take, attachment, remarks, partner_contact, uploaded, interest, type,installment , totalMonths , loanName , installmentAmount , remoteid
-
-
-        const uploaded = 0;
-        const lastUpdate = new Date();
-      
-        db.transaction(tx => {
-            tx.executeSql(
-                "INSERT INTO loanrecords ( bookid,isactive , amountGiven , date , duedate,lastupdated , give , take , attachment , remarks , contactno,customername , uploaded , interest , type , mode ,  installment , totalMonths, loanName, installmentAmount ) VALUES (" + bookid + "," +1+ "," + amountGiven + ",'" + date + "', '" + duedate + "', '" +lastUpdate+ "', "+ give + ", " + take + ", '" + attachment + "', '" + remarks + "', '" + partner_contact+ "', '" + customerName + "' ,0, '" + interest + "', '"+typedb+"','"+mode+"','"+installment+"',"+totalMonths+",'"+loanName+"', "+installmentAmount+")",
-                [],
-                (tx, results) => {
-
-                    //console.log('setrecord : Results', results);
-                }, (t, error) => {
-                    //console.log('setrecord : error : ', error)
-                }
-            );
-        });
-
-    }
-
-
-
-    setLoanTakenRecord(bookid, amountTaken, date, duedate, give, take, attachment, remarks, partner_contact,customerName, phoneid, typedb, mode, installment, totalMonths, interest, loanName, installmentAmount) {
-
-        //recordid, txid, book_id, amount, date, duedate, give, take, attachment, remarks, partner_contact, uploaded, interest, type,installment , totalMonths , loanName , installmentAmount , remoteid
-
-
-       const uploaded = 0;
-       const lastUpdate = new Date();
-      
-       db.transaction(tx => {
-           tx.executeSql(
-               "INSERT INTO loanrecords ( bookid , amountTaken , date , duedate ,lastupdated ,give , take , attachment , remarks , contactno,customername  , uploaded , interest , type , mode ,  installment , totalMonths, loanName, installmentAmount ) VALUES (" + bookid + "," + amountTaken + ",'" + date + "', '" + duedate +"', '" + lastUpdate + "', " + give + ", " + take + ", '" + attachment + "', '" + remarks + "', '" + partner_contact  + "', '" +customerName+ "' ,0, '" + interest + "', '"+typedb+"','"+mode+"','"+installment+"',"+totalMonths+",'"+loanName+"', "+installmentAmount+")",
-               [],
-               (tx, results) => {
-
-                   //console.log('setrecord : Results', results);
-               }, (t, error) => {
-                   //console.log('setrecord : error : ', error)
-               }
-           );
-       });
-
-   }
-
-
-
-
 
     deleteContactFromBook(phone, bookId, loanYes){
         db.transaction(tx => {
@@ -803,69 +726,6 @@ getRecordId(phone,bookId){
         })
     }
 
-    checkLoanName(name,bookid){
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT * FROM loanname WHERE bookid = "+bookid+" AND name='"+name+"' ORDER BY lastupdated DESC",
-                    [],
-                    (tx, results) => {
-                        ////console.log('get Record Results new ', results.rows['_array']);
-                        resolve(results.rows['_array'])
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-    }
-
-    addLoanName(name, contactname, contactno,bookid){
-
-        return new Promise((resolve, reject)=>{
-            //console.log('phno',contactno)
-            db.transaction(tx => {
-                const date = new Date();
-                tx.executeSql(
-                    "INSERT INTO loanname (name, isactive, lastupdated, contactname, contactno, bookid) VALUES ('" + name + "', 1, '" + date + "', '"+contactname+"', '"+contactno+"', "+bookid+")",
-                    [],
-                    (tx, results) => {
-                        resolve(1)
-
-                        //console.log('setrecord : Results', results);
-                    }, (t, error) => {
-
-                        //console.log('setrecord : error : ', error)
-                        reject(0)
-                    }
-                );
-            });
-        })
-    }
-
-    getLoanNames(bookid){
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT *,customername as contactname,loanName as name,contactno as contactno,sum(amountGiven) as totalGiven,sum(amountTaken) as totalTaken FROM loanrecords WHERE bookid = "+bookid+" GROUP BY contactno ORDER BY lastupdated DESC",
-                    // ln,loanrecords lr WHERE ln.contactno = lr.partner_contact AND ln.bookid=lr.book_id AND bookid = "+bookid+" ORDER BY lastupdated DESC",
-                    [],
-                    (tx, results) => {
-                        // //console.log('get Record Results new ', results.rows['_array']);
-                        resolve(results.rows['_array'])
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-    }
-
-
 
     setIsUploadedData(recordid){
         return new Promise((resolve, reject) => {
@@ -887,27 +747,27 @@ getRecordId(phone,bookId){
     }
 
 
-    setUserData(recordid,bookId,phone,key,value){
+    setUserData(recordid,bookId,phone,key,value) {
         return new Promise((resolve, reject) => {
 
 
             db.transaction(tx => {
                 tx.executeSql(
-                    "SELECT * FROM contactwithrecords WHERE contact='" + phone + "' AND bookid=" + bookId +" AND isDeleted=0 ",
+                    "SELECT * FROM contactwithrecords WHERE contact='" + phone + "' AND bookid=" + bookId + " AND isDeleted=0 ",
                     [],
                     (tx, results) => {
-                       
+
                         results.rows.length !== 0 ?
                             db.transaction(tx => {
                                 tx.executeSql(
-                                    "UPDATE contactwithrecords SET "+key+" = '"+value+"' WHERE recordid="+recordid +" AND bookid=" +bookId + " AND contact ="+phone ,
+                                    "UPDATE contactwithrecords SET " + key + " = '" + value + "' WHERE recordid=" + recordid + " AND bookid=" + bookId + " AND contact =" + phone,
                                     [],
                                     (tx, results) => {
 
 
                                         db.transaction(tx => {
                                             tx.executeSql(
-                                                "SELECT * FROM contactwithrecords WHERE contact='" + phone + "' AND bookid=" + bookId +" AND isDeleted=0 ",
+                                                "SELECT * FROM contactwithrecords WHERE contact='" + phone + "' AND bookid=" + bookId + " AND isDeleted=0 ",
                                                 [],
                                                 (tx, results) => {
                                                     //console.log('get updated Results new ', results.rows['_array']);
@@ -919,8 +779,7 @@ getRecordId(phone,bookId){
                                             );
                                         });
 
-                                     
-                                   
+
                                     }, (t, error) => {
                                         //console.log('setrecord : error : ', error)
                                     }
@@ -937,103 +796,8 @@ getRecordId(phone,bookId){
         })
 
 
-
-
-
-
-            // db.transaction(tx => {
-            //     tx.executeSql(
-                  
-            //         [],
-            //         (tx, results) => {
-            //             resolve(results)
-            //         }, (t, error) => {
-            //             //console.log('Constructor error : ', error)
-            //             reject(error)
-            //         }
-            //     );
-            // });
-        // })
-
-    }
-    setIsUploadedDataLoan(recordid){
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "UPDATE loanrecords SET uploaded=1 WHERE recordid="+recordid,
-                    [],
-                    (tx, results) => {
-                        resolve(results)
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-
     }
 
-    getUnuploadedLoanData(){
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT * FROM loanrecords WHERE uploaded=0",
-                    [],
-                    (tx, results) => {
-                        //console.log('get Record Results new ', results.rows['_array']);
-                        resolve(results.rows['_array'])
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-    }
-
-
-
-    getLoanRecordById(id){
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT *,contactno as partner_contact,lastupdated as date ,customername as contactname,loanName as name FROM loanrecords WHERE recordid=" + id,
-                    [],
-                    (tx, results) => {
-                        //console.log('get Record Results new ', results.rows['_array']);
-                        resolve(results.rows['_array'])
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-    }
-
-    getLoanRecord(bookid) {
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT * FROM loanrecords WHERE bookid=" + bookid,
-                    [],
-                    (tx, results) => {
-                        //console.log('get Record Results new ', results.rows['_array']);
-                        resolve(results.rows['_array'])
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-
-    }
 
     getRecordByDate(id){
         return new Promise((resolve, reject) => {
@@ -1133,26 +897,6 @@ getRecordId(phone,bookId){
     }
 
 
-    getLoanRecord(bookid) {
-        return new Promise((resolve, reject) => {
-
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT *,contactno as partner_contact,lastupdated as date ,customername as contactname,loanName as name FROM loanrecords WHERE bookid=" + bookid,
-                    [],
-                    (tx, results) => {
-                        //console.log('get Record Results new ', results.rows['_array']);
-                        resolve(results.rows['_array'])
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-
-    }
-
     getCustomerCount(bookid) {
         return new Promise((resolve, reject) => {
 
@@ -1227,26 +971,6 @@ getRecordId(phone,bookId){
                     [],
                     (tx, results) => {
                         //console.log('get Record Results', results.rows['_array']);
-                        resolve(results.rows)
-                    }, (t, error) => {
-                        //console.log('Constructor error : ', error)
-                        reject(error)
-                    }
-                );
-            });
-        })
-    }
-
-
-    getLoanRecordsOfUser(phone, bookid) {
-        return new Promise((resolve, reject) => {
-            const date = new Date();
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT *,customername as contactname,loanName as name FROM loanrecords WHERE bookid=" + bookid + " AND contactno='" + phone+"'",
-                    [],
-                    (tx, results) => {
-                        //console.log('get Record Results', results.rows);
                         resolve(results.rows)
                     }, (t, error) => {
                         //console.log('Constructor error : ', error)
@@ -1851,119 +1575,6 @@ getRecordId(phone,bookId){
 
                     }, (t, error) => {
                         //console.log('Cash in error',JSON.stringify(error))
-                        reject(error)
-                    }
-                )
-            })
-        });
-    }
-
-    
-
-    getSumOfTakesLoan(bookid) {
-        return new Promise((resolve, reject) => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT * FROM loanrecords WHERE book_id=" + bookid+" AND take=1", [],
-                    (tx, results) => {
-                        const arr = results.rows['_array']
-                        const map = arr.map(a => this.getTotalAmount(a.amount, a.interest, a.installment, a.totalMonths))
-                        const sum = map.reduce((a, b) => a + b, 0)
-                        resolve(sum)
-                    }, (t, error) => {
-                        reject(error)
-                    }
-                )
-            })
-        });
-    }
-    getSumOfGavesLoan(bookid) {
-        return new Promise((resolve, reject) => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT * FROM loanrecords WHERE book_id=" + bookid+" AND take=0", [],
-                    (tx, results) => {
-                        const arr = results.rows['_array']
-                        const map = arr.map(a => this.getTotalAmount(a.amount, a.interest, a.installment, a.totalMonths))
-                        const sum = map.reduce((a, b) => a + b, 0)
-                        resolve(sum)
-                    }, (t, error) => {
-                        reject(error)
-                    }
-                )
-            })
-        });
-    }
-    // amount loanrecords
-
-    getTakesLoanContact(bookid) {
-        return new Promise((resolve, reject) => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT *,amountTaken as amount,contactno as partner_contact,loanName as name,customername as contactname,lastupdated as date FROM loanrecords WHERE  bookid=" + bookid + " AND take=1", [],
-                    (tx, results) => {
-                       
-                     
-                        resolve(results.rows)
-                    }, (t, error) => {
-                        reject(error)
-                    }
-                )
-            })
-        });
-    }
-    getGavesLoanContact(bookid) {
-        return new Promise((resolve, reject) => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT *,amountGiven as amount,contactno as partner_contact,loanName as name,customername as contactname,lastupdated as date FROM loanrecords WHERE  bookid=" + bookid + " AND give=1", [],
-                    (tx, results) => {
-                        
-                       //console.log('loan records',results.rows)
-                        
-                        resolve(results.rows)
-                    }, (t, error) => {
-                        reject(error)
-                    }
-                )
-            })
-        });
-    }
-
-
-
-    getSumOfTakesLoanContact(bookid) {
-        return new Promise((resolve, reject) => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT sum(amountTaken) as totalTaken FROM loanrecords WHERE bookid=" + bookid, [],
-                    (tx, results) => {
-                       
-                        // const arr = results.rows['_array']
-                        // const map = arr.map(a => a.amount)
-                        // const sum = map.reduce((a, b) => a + b, 0)
-                     
-                        resolve(results.rows['_array'][0]['totalTaken'])
-                    }, (t, error) => {
-                        reject(error)
-                    }
-                )
-            })
-        });
-    }
-    getSumOfGavesLoanContact(bookid) {
-        return new Promise((resolve, reject) => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    "SELECT sum(amountGiven) as totalGiven FROM loanrecords WHERE bookid=" + bookid, [],
-                    (tx, results) => {
-                        
-                        // const arr = results.rows['_array']
-                        // const map = arr.map(a => a.amount)
-                        // const sum = map.reduce((a, b) => a + b, 0)
-                        
-                        resolve(results.rows['_array'][0]['totalGiven'])
-                    }, (t, error) => {
                         reject(error)
                     }
                 )

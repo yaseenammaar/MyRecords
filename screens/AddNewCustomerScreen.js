@@ -197,7 +197,7 @@ function AddNewCustomerScreen(props) {
             const fullPhoneNumber = '+' + country.callingCode[0] + ph_no.toString()
 
             const bookId = props.personals.currentBookId
-            const res = await dbObject.checkAndInsertContact(fullPhoneNumber, bookId, customerName, storeObject.getOpenLoan())
+            const res = await dbObject.checkAndInsertContact(fullPhoneNumber, bookId, customerName, 0)
 
             if (res === 1) {
               const updatedContacts = await dbObject.getExistingContacts(bookId)

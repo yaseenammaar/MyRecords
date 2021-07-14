@@ -2,16 +2,13 @@ import React, {useEffect, useState} from "react";
 import { MTable } from "../tableDesign"
 import {Text, TouchableOpacity, View, StyleSheet} from "react-native";
 import {styles} from "../../../styles/globalStyle";
-import {Row, Table} from "react-native-table-component";
 import {Entypo} from '@expo/vector-icons';
-import {sum} from "react-native-table-component/utils";
 
 function HomeTable(props) {
 
-  const { navigation,componentName, lan = "english", data = []} = props
+  const { navigation, lan = "english", data = []} = props
 
   const [sumArr, setSumArr] = useState([])
-  console.log('navigation ',componentName)
   useEffect(() => {
     setSumArr(props?.mTakeSum)
     // console.log(sumArr)
@@ -65,7 +62,7 @@ function HomeTable(props) {
               (item.give===0 && item.take===1) || (item.give===0 && item.take===2)?
               (
                  <View style={[styles.cAmtTimeCont, {marginLeft: 10, alignItems:"center"}]}>
-                <Text style={styles.takeAmountText}>₹{componentName==='dashboard'?sumArr[index]:item.amount}</Text>
+                <Text style={styles.takeAmountText}>₹{/*componentName==='dashboard'?*/sumArr[index]/*:item.amount*/}</Text>
                    {//console.log("index is ", index)
                  }
                 <Text style={styles.cTime}>{marker}</Text>
@@ -74,7 +71,7 @@ function HomeTable(props) {
               :
               (
                  <View style={[styles.cAmtTimeCont, {marginLeft: 10, alignItems:"center"}]}>
-                <Text style={styles.giveAmountText}>₹{componentName==='dashboard'?sumArr[index]<0?-sumArr[index]:sumArr[index]:(item.amount)}</Text>
+                <Text style={styles.giveAmountText}>₹{/*componentName==='dashboard'?*/sumArr[index]<0?-sumArr[index]:sumArr[index]/*:(item.amount)*/}</Text>
                 <Text style={styles.cTime}>{marker}</Text>
                 </View>
               )

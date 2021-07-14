@@ -235,23 +235,10 @@ function ContactScreen(props) {
   async function gotoOneCustomerScreen(navigation, phone, name) {
 
     try {
-      let loan = 0
-
-
-      if (storeObject.getOpenLoan() === 0) {
-        navigation.navigate('OneCustomerScreen', {
-          phoneNumber: phone,
-          name: name
-        })
-
-      } else {
-        navigation.navigate('OneCustomerScreenLoan', {
-          phoneNumber: phone,
-          name: name
-        })
-
-        loan = 1
-      }
+      navigation.navigate('OneCustomerScreen', {
+        phoneNumber: phone,
+        name: name
+      })
 
       const bookid = props.personals.currentBookId
       
