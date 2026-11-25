@@ -1,3 +1,4 @@
+// Copyright (c) 2026 Sniff Labs LLC. All rights reserved.
 import {NavigationContainer} from '@react-navigation/native';
 import React, {useState} from 'react';
 import {Platform, StatusBar, StyleSheet, View, Text, ScrollView} from 'react-native';
